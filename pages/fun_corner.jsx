@@ -1,4 +1,5 @@
 import dynamic from 'next/dynamic'
+import Link from 'next/link'
 
 
 const SideBar = dynamic(() => import('./side_bar'))
@@ -9,6 +10,7 @@ const fun_corner = () => {
         <div className="md:w-8/12 w-full">
           <div className="py-2 pl-2">
             <div className="dotted-border">
+            <div className="text-3xl adlib text-yellow-900 pb-2">Fun Corner</div>
             <div className="body-font">
               I am so excited to teach you a little bit about the customs and
               traditions of Africa. This is going to be great fun, Rafiki. There
@@ -42,11 +44,11 @@ const fun_corner = () => {
 
             <div className="body-font text-lg azizi-green pt-5">Click On The Links Below To Download Fun Pictures To Color:</div>
 
-            <li className="body-font azizi-red">Pundamilia at the well</li>
-            <li className="body-font azizi-blue">Tembo and Sungura running</li>
-            <li className="body-font azizi-orange">The Chase</li>
-            <li className="body-font azizi-green">Tembo and Sungura apologize</li>
-            <li className="body-font azizi-red">Mmmh fruits and vegetables</li>
+            <Link href="./images/Well.jpg"><a target="_blank" rel="noreferrer"><li className="body-font azizi-red">Pundamilia at the Well</li></a></Link>
+            <Link href="./images/Running.jpg"><a target="_blank" rel="noreferrer"><li className="body-font azizi-blue">Tembo and Sungura Running</li></a></Link>
+            <Link href="./images/Chase.jpg"><a target="_blank" rel="noreferrer"><li className="body-font azizi-orange">The Chase</li></a></Link>
+            <Link href="./images/Apologize.jpg"><a target="_blank" rel="noreferrer"><li className="body-font azizi-green">Tembo and Sungura Apologize</li></a></Link>
+            <Link href="./images/Fruits&Vegetables.jpg"><a target="_blank" rel="noreferrer"><li className="body-font azizi-red">Mmmh Fruits and Vegetables</li></a></Link>
 
             <div className="body-font azizi-blue text-xl pb-2 pt-4">
               STUFF I DO….YOU CAN TOO!

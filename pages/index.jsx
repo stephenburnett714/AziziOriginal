@@ -9,6 +9,7 @@ export default function Home() {
       <div className="md:w-8/12 w-full">
         <div className="py-2 pl-2">
           <div className="dotted-border">
+          <div className="text-3xl adlib text-yellow-900 pb-2">Twende! Let's go on a adventure together!</div>
           <div className="adlib azizi-orange text-xl pb-2">Jambo! Hi!</div>
           <div className="inline azizi-green adlib text-xl pb-2 items-center">
             <div>My name is Azizi.</div>

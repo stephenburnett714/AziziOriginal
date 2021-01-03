@@ -14,14 +14,14 @@ function MyApp({ Component, pageProps }) {
           src="/images/logo.png"
           height="100"
           width="100"
-          className="bg-red-400 rounded-full"
+          className="rounded-full"
         ></Image>
       </div>
       <div>
         <div className="flex flex-row pt-20 justify-center relative z-10">
           {/* Link Buttons */}
           <Link href={"/"}>
-            <div className="h-14 w-14 md:h-20 md:w-20 rounded-full home-gradient flex items-center justify-center flex-wrap mr-2 shadow-xl">
+            <div className="h-14 w-14 md:h-20 md:w-20 rounded-full home-gradient flex items-center justify-center flex-wrap mr-2 shadow-xl cursor-pointer">
               <div className="text-center text-sm md:text-base adlib text-white">
                 Home
               </div>
@@ -29,7 +29,7 @@ function MyApp({ Component, pageProps }) {
           </Link>
 
           <Link href={"/fun_corner"}>
-            <div className="h-14 w-14 md:h-20 md:w-20 rounded-full fun-gradient flex items-center justify-center flex-wrap mr-2 shadow-xl">
+            <div className="h-14 w-14 md:h-20 md:w-20 rounded-full fun-gradient flex items-center justify-center flex-wrap mr-2 shadow-xl cursor-pointer">
               <div className="text-center text-sm md:text-base adlib text-white">
                 Fun Corner
               </div>
@@ -37,7 +37,7 @@ function MyApp({ Component, pageProps }) {
           </Link>
 
           <Link href={"/about"}>
-            <div className="h-14 w-14 md:h-20 md:w-20 rounded-full about-gradient flex items-center justify-center flex-wrap mr-2 shadow-xl">
+            <div className="h-14 w-14 md:h-20 md:w-20 rounded-full about-gradient flex items-center justify-center flex-wrap mr-2 shadow-xl cursor-pointer">
               <div className="text-center text-sm md:text-base adlib text-white">
                 About Us
               </div>
@@ -45,7 +45,7 @@ function MyApp({ Component, pageProps }) {
           </Link>
 
           <Link href={"/author"}>
-            <div className="h-14 w-14 md:h-20 md:w-20 rounded-full author-gradient flex items-center justify-center flex-wrap mr-2 shadow-xl">
+            <div className="h-14 w-14 md:h-20 md:w-20 rounded-full author-gradient flex items-center justify-center flex-wrap mr-2 shadow-xl cursor-pointer">
               <div className="text-center text-sm md:text-base adlib text-white">
                 Author
               </div>
@@ -53,7 +53,7 @@ function MyApp({ Component, pageProps }) {
           </Link>
 
           <Link href={"/books"}>
-            <div className="h-14 w-14 md:h-20 md:w-20 rounded-full books-gradient flex items-center justify-center flex-wrap shadow-xl">
+            <div className="h-14 w-14 md:h-20 md:w-20 rounded-full books-gradient flex items-center justify-center flex-wrap shadow-xl cursor-pointer">
               <div className="text-center text-sm md:text-base adlib text-white">
                 Books
               </div>
