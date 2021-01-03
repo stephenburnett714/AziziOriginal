@@ -1,0 +1,102 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* *************************** */
+/************ Fonts ***********/
+/* ************************* */
+
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+
+.body-font {
+    font-family: 'Architects Daughter', cursive;
+}
+@font-face {
+    font-family: 'adlib';
+    src: url(../fonts/adlib1.ttf);
+}
+.adlib {
+    font-family: "adlib"
+}
+
+/* **************************** */
+/*********** Colors ************/
+/* ************************** */
+
+.home-gradient {
+    background: linear-gradient(90deg,rgba(242,194,86,1) 20%, rgba(223,111,57,1)  100%);
+}
+
+.fun-gradient {
+    background: linear-gradient(90deg, rgba(226,119,95,1) 20%, rgba(196,55,51,1) 100%);
+}
+
+.about-gradient {
+    background: linear-gradient(90deg, rgba(107,183,129,1) 20%, rgba(65,145,84,1) 100%);
+}
+
+.author-gradient {
+    background: linear-gradient(90deg, rgba(222,109,165,1) 20%, rgba(190,47,137,1) 100%);
+}
+
+.books-gradient {
+    background: linear-gradient(90deg, rgba(90,190,237,1) 20%, rgba(65,151,215,1) 100%);
+}
+
+
+.azizi-green {
+    color: rgb(96, 169,69);
+}
+
+.azizi-bg-green {
+    background-color: rgb(96, 169,69);
+}
+
+.azizi-blue {
+    color: rgb(81, 178,229);
+}
+
+.azizi-red {
+    color: rgb(206, 22,38);
+}
+
+.azizi-bg-blue {
+    background-color: rgb(81, 178,229);
+}
+
+.azizi-orange {
+    color: rgb(227, 120,38);
+}
+
+.azizi-bg-orange {
+    background-color: rgb(227, 120,38);
+}
+
+.azizi-bg-red {
+    background-color: rgb(206, 22,38);
+}
+
+.azizi-red {
+    color: rgb(206, 22,38);
+}
+
+.black-shadow {
+    text-shadow: 1px 1px #000000;
+}
+
+
+/* ************************* */
+/********* Border ***********/
+/* *********************** */
+
+.dotted-border {
+border-right: 2px dotted #60a5fa;
+padding-left: 0.5rem;
+padding-right: 0.5rem;
+}
+
+@media only screen and (max-width: 768px) {
+.dotted-border {
+    border-right: none;
+}
+}
