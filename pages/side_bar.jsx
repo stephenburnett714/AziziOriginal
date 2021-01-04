@@ -1,4 +1,4 @@
-import { BookData } from "./BookData.jsx";
+import { BookData } from "../public/BookData.jsx";
 import Image from "next/image";
 
 let sideBarBooks = BookData.filter((books) => {
