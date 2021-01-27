@@ -16,6 +16,7 @@ const about = () => {
               Best.
             </div>
 
+
             <div className="body-font">
               Our products and services have a distinct Swahili cultural
               influence. Azizi Kids© vision is focused around bridging the

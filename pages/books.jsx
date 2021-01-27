@@ -19,8 +19,18 @@ const books = () => {
               <Image src={book.image} height="200" width="200" alt="" />
               <div className={book.price ? "azizi-orange body-font text-lg pt-2 text-ceter" : "azizi-orange body-font text-2xl pt-2 text-ceter"}>{book.price ? `$${book.price}` : "Unavailable"}</div>
               <div className="flex flex-row p-2 space-between">
-              <div className={book.price ? "px-3 azizi-bg-orange text-white rounded-full cursor-pointer mr-3 text-md body-font text-center" : "hidden"}>View Cart</div>
-              <div className={book.price ? "px-3 azizi-bg-blue text-white rounded-full cursor-pointer  ml-3 text-md body-font text-center" : "hidden"}>Add To Cart</div>
+
+              <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+        <input type="hidden" name="cmd" value="_s-xclick"/>
+        <input type="hidden" name="hosted_button_id" value={book.addToCart}/>
+        <table>
+        <tr><td><input type="hidden" name="on0" value="Autograph to: (optional)"/>Autograph to: (optional)</td></tr><tr><td><input type="text" name="os0" maxlength="200"/></td></tr>
+        </table>
+        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!"/>
+        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1"/>
+        </form>
+              
+
               </div>
             </div>
           ))}
