@@ -100,3 +100,23 @@ padding-right: 0.5rem;
     border-right: none;
 }
 }
+
+
+/* ************************* */
+/********* Button ***********/
+/* *********************** */
+
+.button-max-width {
+    max-width: 150px;
+}
+
+/* ************************* */
+/********* Background ***********/
+/* *********************** */
+.background {
+    background-image: url(../public/images/Background.jpg);
+    background-color: #694024;
+    background-position: center top;
+    background-size: 100% auto;
+     background-repeat: no-repeat;
+   }

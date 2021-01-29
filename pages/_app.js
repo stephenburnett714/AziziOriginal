@@ -7,7 +7,8 @@ import { faPhone, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 function MyApp({ Component, pageProps }) {
   return (
-    <div>
+    <div className="background">
+      
       {/* Logo */}
       <div className="pl-4 pt-4 z-1">
         <Image
@@ -18,18 +19,18 @@ function MyApp({ Component, pageProps }) {
         ></Image>
       </div>
       <div>
-        <div className="flex flex-row pt-20 justify-center relative z-10">
+        <div className="flex flex-row pt-32 justify-center relative z-10">
           {/* Link Buttons */}
           <Link href={"/"}>
-            <div className="h-14 w-14 md:h-20 md:w-20 rounded-full home-gradient flex items-center justify-center flex-wrap mr-2 shadow-xl cursor-pointer">
-              <div className="text-center text-sm md:text-base adlib text-white">
+            <div className="h-14 w-14 md:h-20 md:w-20 lg:h-24 lg:w-24  md:mr-5 lg:mr-10 rounded-full home-gradient flex items-center justify-center flex-wrap mr-2 shadow-xl cursor-pointer">
+              <div className="text-center text-sm md:text-base lg:text-lg adlib text-white">
                 Home
               </div>
             </div>
           </Link>
 
           <Link href={"/fun_corner"}>
-            <div className="h-14 w-14 md:h-20 md:w-20 rounded-full fun-gradient flex items-center justify-center flex-wrap mr-2 shadow-xl cursor-pointer">
+            <div className="h-14 w-14 md:h-20 md:w-20 lg:h-24 lg:w-24 md:mr-5 lg:mr-10 rounded-full fun-gradient flex items-center justify-center flex-wrap mr-2 shadow-xl cursor-pointer">
               <div className="text-center text-sm md:text-base adlib text-white">
                 Fun Corner
               </div>
@@ -37,7 +38,7 @@ function MyApp({ Component, pageProps }) {
           </Link>
 
           <Link href={"/about"}>
-            <div className="h-14 w-14 md:h-20 md:w-20 rounded-full about-gradient flex items-center justify-center flex-wrap mr-2 shadow-xl cursor-pointer">
+            <div className="h-14 w-14 md:h-20 md:w-20 lg:h-24 lg:w-24 md:mr-5 lg:mr-10 rounded-full about-gradient flex items-center justify-center flex-wrap mr-2 shadow-xl cursor-pointer">
               <div className="text-center text-sm md:text-base adlib text-white">
                 About Us
               </div>
@@ -45,7 +46,7 @@ function MyApp({ Component, pageProps }) {
           </Link>
 
           <Link href={"/author"}>
-            <div className="h-14 w-14 md:h-20 md:w-20 rounded-full author-gradient flex items-center justify-center flex-wrap mr-2 shadow-xl cursor-pointer">
+            <div className="h-14 w-14 md:h-20 md:w-20 lg:h-24 lg:w-24 md:mr-5 lg:mr-10 rounded-full author-gradient flex items-center justify-center flex-wrap mr-2 shadow-xl cursor-pointer">
               <div className="text-center text-sm md:text-base adlib text-white">
                 Author
               </div>
@@ -53,7 +54,7 @@ function MyApp({ Component, pageProps }) {
           </Link>
 
           <Link href={"/books"}>
-            <div className="h-14 w-14 md:h-20 md:w-20 rounded-full books-gradient flex items-center justify-center flex-wrap shadow-xl cursor-pointer">
+            <div className="h-14 w-14 md:h-20 md:w-20 lg:h-24 lg:w-24 rounded-full books-gradient flex items-center justify-center flex-wrap shadow-xl cursor-pointer">
               <div className="text-center text-sm md:text-base adlib text-white">
                 Books
               </div>
