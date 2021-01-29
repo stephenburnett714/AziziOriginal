@@ -119,4 +119,5 @@ padding-right: 0.5rem;
     background-position: center top;
     background-size: 100% auto;
      background-repeat: no-repeat;
+     background-attachment: fixed;
    }

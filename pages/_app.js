@@ -19,7 +19,7 @@ function MyApp({ Component, pageProps }) {
         ></Image>
       </div>
       <div>
-        <div className="flex flex-row pt-32 justify-center relative z-10">
+        <div className="flex flex-row pt-10 md:pt-36 xl:pt-52 justify-center relative z-10">
           {/* Link Buttons */}
           <Link href={"/"}>
             <div className="h-14 w-14 md:h-20 md:w-20 lg:h-24 lg:w-24  md:mr-5 lg:mr-10 rounded-full home-gradient flex items-center justify-center flex-wrap mr-2 shadow-xl cursor-pointer">
