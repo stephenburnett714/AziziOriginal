@@ -10,8 +10,8 @@ const author = () => {
           <div className="py-2 pl-2">
             <div className="dotted-border">
             <div className="text-3xl adlib text-yellow-900 pb-2">About The Author</div>
-            <div className="azizi-blue body-font text-xl pb-3">E.J. Wakonyo</div>
-      <div className="body-font pb-2">
+            <div className="azizi-blue body-font text-lg md:text-xl pb-3">E.J. Wakonyo</div>
+      <div className="body-font pb-2 text-sm md:text-base">
         Esther grew up in modern Africa (Kenya) and currently lives in the
         United States (Pennsylvania) with her family. It is not uncommon for her
         to get questions from people about the differences in culture and
@@ -23,13 +23,13 @@ const author = () => {
         discover that those differences are the best parts of our relationships
         with all people.
       </div>
-      <div className="body-font pb-2">
+      <div className="body-font pb-2 text-sm md:text-base">
         As you start reading all the stories of Azizi you will discover the
         amazing gift that Esther has for story telling that combines social
         education and emotional development. Her approach is fresh and her
         perspective is enlightening.
       </div>
-      <div className="body-font pb-2">
+      <div className="body-font pb-2 text-sm md:text-base">
         The first book by Esther, Lala Salama – Azizi And The Dancing Monsters,
         is a delightful story that teaches a valuable lesson in courage. It is
         the introduction of Azizi to the world and it leaves you wanting more.
@@ -37,7 +37,7 @@ const author = () => {
         story that has Azizi determined to be brave forever. The words and music
         create an amazing tale that is sure to be remembered.
       </div>
-      <div className="body-font">
+      <div className="body-font text-sm md:text-base">
         Towards the end of this year be sure to look for other incredible
         stories. There are three more adventures with Azizi that are going to be
         shared with you, your child, and perhaps the world. Each one guarantees

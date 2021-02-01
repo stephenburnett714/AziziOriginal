@@ -5,7 +5,7 @@ const books = () => {
     return (
         <div className="bg-white py-2 px-4 border-4 border-blue-300">
         <div className="text-3xl adlib text-yellow-900 pb-3 text-padding">Books</div>
-        <div className="body-font pb-2 text-padding">
+        <div className="body-font text-sm md:text-base pb-2 text-padding">
                 It’s easy to want to spend more time with Azizi. After all he’s
                 fun, adventurous, and your special friend who can also speak
                 Swahili. Every day with Azizi is guaranteed to be a fun day of
@@ -36,15 +36,15 @@ const books = () => {
           ))}
         </div>
             
-        <div className="body-font azizi-blue text-2xl pb-2 text-padding">MUSIC:</div>
-              <div className="body-font azizi-green text-lg text-padding">Lullaby CD</div>
-              <div className="body-font pb-1 text-padding">
+        <div className="body-font azizi-blue text-xl md:text-2xl pb-2 text-padding">MUSIC:</div>
+              <div className="body-font azizi-green text-base md:text-lg text-padding">Lullaby CD</div>
+              <div className="body-font text-sm md:text-base pb-1 text-padding">
                 The perfect wind down for the evening (children and adults alike).
                 These beautiful, lullaby’s from Africa are guaranteed to enchant
                 you right into a wonderful night’s sleep.
               </div>
   
-              <div className="body-font text-padding pb-5">
+              <div className="body-font text-sm md:text-base text-padding pb-5">
                 It’s exciting to know that a good friend like Azizi can be with
                 your children whether they are at school or home. Everything that
                 comes from Azizi Kids© comes with a guarantee to be something of

@@ -9,16 +9,16 @@ export default function Home() {
       <div className="md:w-8/12 w-full">
         <div className="py-2 pl-2">
           <div className="dotted-border">
-          <div className="text-3xl adlib text-yellow-900 pb-2">Twende! Let's go on a adventure together!</div>
-          <div className="adlib azizi-orange text-xl pb-2">Jambo! Hi!</div>
-          <div className="inline azizi-green adlib text-xl pb-2 items-center">
+          <div className="text-2xl sm:text-3xl adlib text-yellow-900 pb-2">Twende! Let's go on a adventure together!</div>
+          <div className="adlib azizi-orange text-lg md:text-xl pb-2">Jambo! Hi!</div>
+          <div className="inline azizi-green adlib text-lg md:text-xl pb-2 items-center">
             <div>My name is Azizi.</div>
           </div>
-          <div className="adlib  azizi-green text-xl pb-1">
+          <div className="adlib azizi-green text-lg md:text-xl pb-1">
             Do you like to have fun? I sure do!
           </div>
 
-          <div className="body-font pb-2">
+          <div className="text-sm md:text-base body-font pb-2">
             There are so many wonderful, fun things around us to do. I love
             reading books, hanging out with my friends and family and going on
             adventures. I can tell you about some of the cool places around me.
@@ -29,16 +29,16 @@ export default function Home() {
             adventure. Do you wanna come with me? Together, you and I can
             discover all kinds of amazing things. That's what friends do!
           </div>
-          <div className="adlib text-xl azizi-green pb-2">
+          <div className="adlib text-lg md:text-xl azizi-green pb-2">
             We'll have so much fun rafiki.
           </div>
-          <div className="adlib azizi-blue text-xl pb-2">
+          <div className="adlib azizi-blue text-lg md:text-xl pb-2">
             Rafiki means friend in Swahili.
           </div>
-          <div className="adlib text-xl azizi-green pb-1">
+          <div className="adlib text-lg md:text-xl azizi-green pb-1">
             Did you know that?
           </div>
-          <div className="body-font pb-2">
+          <div className="text-sm md:text-base body-font pb-2">
             I can’t wait to show you how to make some really yummy snacks. I am
             learning too.....we can learn together. The fruits and veggies taste
             so yummy! Then you can show your friends how to make tasty treats.
@@ -48,7 +48,7 @@ export default function Home() {
             you can wear that have wonderful Swahili sayings on them. Stay
             tuned!
           </div>
-          <div className="adlib text-xl azizi-green pt-5">
+          <div className="adlib text-lg md:text-xl azizi-green pt-5">
             And don't forget, Rafiki, tell your parents about all the fun we are
             having together!
           </div>

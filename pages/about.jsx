@@ -11,13 +11,13 @@ const about = () => {
           <div className="py-2 pl-2">
             <div className="dotted-border">
                 <div className="text-3xl adlib text-yellow-900 pb-2">About Us</div>
-            <div className="body-font azizi-blue text-xl pb-2">
+            <div className="body-font azizi-blue text-lg md:text-xl pb-2">
               Azizi Kids© Is A Company That Is Dedicated To Bringing Kids The
               Best.
             </div>
 
 
-            <div className="body-font">
+            <div className="body-font text-sm md:text-base">
               Our products and services have a distinct Swahili cultural
               influence. Azizi Kids© vision is focused around bridging the
               American and African cultures together. Through the interaction of
@@ -41,17 +41,17 @@ const about = () => {
               high quality products that will let your children always have
               their new friend, Azizi, close by.
             </div>
-            <div className="adlib azizi-blue text-xl py-2">CONTACT US</div>
-            <div className="body-font">
+            <div className="adlib azizi-blue text-lg md:text-xl py-2">CONTACT US</div>
+            <div className="body-font text-sm md:text-base">
               Here at Azizi Kids© we always welcome any feedback or questions
               that you may have. Our commitment to providing you an excellent
               multi-cultural experience runs deep. Just like Azizi himself, we
               are always willing to grow and learn.
             </div>
-            <div className="body-font pt-2 text-xl">Please contact us at </div>
-            <div><a href="mailto:info@azizikids.com" className="body-font azizi-blue">info@azizikids.com</a></div>
-            <div><a href="tel:6103311775" className="body-font azizi-blue">(610) 331-1775</a></div>
-            <div className="body-font">Azizi Kids LLC©</div>
+            <div className="body-font pt-2 text-lg md:text-xl">Please contact us at </div>
+            <div><a href="mailto:info@azizikids.com" className="body-font text-sm md:text-base azizi-blue">info@azizikids.com</a></div>
+            <div><a href="tel:6103311775" className="body-font text-sm md:text-base azizi-blue">(610) 331-1775</a></div>
+            <div className="body-font text-sm md:text-base">Azizi Kids LLC©</div>
             </div>
           </div>
         </div>
