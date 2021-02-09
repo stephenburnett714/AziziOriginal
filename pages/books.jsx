@@ -1,9 +1,13 @@
 import { BookData } from "../public/BookData.jsx";
 import Image from "next/image"
+import Head from 'next/head'
 
 const books = () => {
     return (
         <div className="bg-white py-2 px-4 border-4 border-blue-300">
+          <Head>
+          <title>Books</title>
+          </Head>
         <div className="text-3xl adlib text-yellow-900 pb-3 text-padding">Books</div>
         <div className="body-font text-sm md:text-base pb-2 text-padding">
                 It’s easy to want to spend more time with Azizi. After all he’s
@@ -24,7 +28,7 @@ const books = () => {
                 <input type="hidden" name="cmd" value="_s-xclick"/>
                 <input type="hidden" name="hosted_button_id" value={book.addToCart}/>
                 <table>
-                <tr><td><input type="hidden" name="on0" value="Autograph to: (optional)"/>Autograph to: (optional)</td></tr><tr><td><input className="border-4 rounded" type="text" name="os0" maxlength="200"/></td></tr>
+                <tr><td><input type="hidden" name="on0" value="Autograph to: (optional)"/>Autograph to: (optional)</td></tr><tr><td><input className="border-4 rounded" type="text" name="os0" maxLength="200"/></td></tr>
                 </table>
                 <input className="mx-4" type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!"/>
                 {/* <img  alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" max-width="500px" height="1"/> */}

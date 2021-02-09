@@ -22,7 +22,7 @@ const side_bar = () => {
                 <input type="hidden" name="cmd" value="_s-xclick"/>
                 <input type="hidden" name="hosted_button_id" value={book.addToCart}/>
                 <table>
-                <tr><td><input type="hidden" name="on0" value="Autograph to: (optional)"/>Autograph to: (optional)</td></tr><tr><td><input className="border-4 rounded" type="text" name="os0" maxlength="200"/></td></tr>
+                <tr><td><input type="hidden" name="on0" value="Autograph to: (optional)"/>Autograph to: (optional)</td></tr><tr><td><input className="border-4 rounded" type="text" name="os0" maxLength="200"/></td></tr>
                 </table>
                 <input className="button-max-width self-center" type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!"/>
               </form>

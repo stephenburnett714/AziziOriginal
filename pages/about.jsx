@@ -1,4 +1,5 @@
 import dynamic from 'next/dynamic'
+import Head from 'next/head'
 
 
 const SideBar = dynamic(() => import('./side_bar'))
@@ -7,6 +8,9 @@ const SideBar = dynamic(() => import('./side_bar'))
 const about = () => {
     return (
         <div className="flex flex-row flex-wrap bg-white border-4 border-blue-300">
+          <Head>
+          <title>About</title>
+          </Head>
         <div className="md:w-8/12 w-full">
           <div className="py-2 pl-2">
             <div className="dotted-border">

@@ -1,3 +1,4 @@
+
 import Link from "next/link";
 import "../styles/index.css";
 import Image from "next/image";
@@ -8,7 +9,6 @@ import { faPhone, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 function MyApp({ Component, pageProps }) {
   return (
     <div className="background">
-      
       {/* Logo */}
       <div className="pl-4 pt-4 z-1">
         <Image
